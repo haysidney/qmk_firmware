@@ -80,10 +80,10 @@ qk_tap_dance_action_t tap_dance_actions[] = {
     float plover_gb_song[][2]  = SONG(PLOVER_GOODBYE_SOUND);
 #endif
 
-static float song1[][2] = SONG(CAMPANELLA);
-static float song2[][2] = SONG(FANTASIE_IMPROMPTU);
-static float song3[][2] = SONG(NOCTURNE_OP_9_NO_1);
-static float song4[][2] = SONG(USSR_ANTHEM);
+static float song1[][2] = SONG(MEGALOVANIA);
+static float song2[][2] = SONG(RICK_ROLL);
+static float song3[][2] = SONG(ALL_STAR);
+static float song4[][2] = SONG(OVERWATCH_THEME);
 
 bool process_record_keymap(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
