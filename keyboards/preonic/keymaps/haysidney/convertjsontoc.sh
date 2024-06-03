@@ -1,0 +1,1 @@
+qmk json2c preonic_rev3_sidney.json > keymap_converted.c
